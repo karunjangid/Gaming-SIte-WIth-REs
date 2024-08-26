@@ -1,0 +1,686 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* added */
+  }
+  
+  .mainreg {
+    background-image: url("https://1.bp.blogspot.com/-hKP-R7mrtnk/XuLqF_zCrLI/AAAAAAAAAEo/5cEL1tj5kWwz-EdRuKrMrpq9Nes4MF0MwCNcBGAsYHQ/w1200-h630-p-k-no-nu/Satta%2Bking.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mainreg img {
+    height: 42vh;
+    width: 42vh;
+    object-fit: cover; /* added */
+  }
+  
+  .securelogin button {
+    background: goldenrod;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 400px;
+    cursor: pointer; /* added */
+  }
+  
+  .secure2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* added */
+  }
+  
+  .secure2 a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+  }
+  
+  .secure2 p {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: white;
+  }
+  
+  .secure2 p a {
+    color: goldenrod;
+    text-decoration: none;
+  }
+  
+  .securelogin {
+    position: relative;
+    top: 20vh;
+  }
+  .first {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    overflow: visible;
+  }
+  
+  .first button {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.408);
+    border: none;
+  }
+  
+  .first h6 {
+    font-size: 30px;
+    color: goldenrod;
+  }
+  
+  .second {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .second img {
+    height: 20vh;
+    width: 20vh;
+  }
+  
+  .second h4 {
+    width: 100vw;
+    text-align: center;
+    font-size: 52px;
+    margin: 60px;
+    color: rgb(224, 195, 4);
+    text-decoration: dotted;
+  }
+  
+  .third {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+  }
+  
+  .third form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    gap: 20px;
+  }
+  
+  .third form input {
+    border: none;
+    border-color: brown;
+    border-bottom-style: ridge;
+  }
+  
+  .third form a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  .third form .btn-2-third {
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+  }
+  
+  .third form .btn-1-third {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 10px;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    width: 100vw;
+
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .hamburger-menu, .logo{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: goldenrod;
+  }
+  .wallet{
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:12px;
+    height: 62px;
+    width: 106px;
+    color: white;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+
+    .dropdown-menu ul img{
+        height: 10vh;
+        border-radius: 50px;
+        margin: 90px;
+        margin-bottom: 0;
+    }
+  .dropdown-menu li {
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 20px;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .content-section1{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(144, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 38vh;
+    gap: 30px;
+  }
+  .content-section1 marquee{
+    background-color: rgb(144, 0, 0);
+  }
+  .content-section2{
+    background-color:rgb(144, 0, 0);
+    height: 34vh;
+    margin-top: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/014/000/328/original/party-celebration-background-with-confetti-and-flags-vector.jpg");
+    background-position: center;
+  }
+
+
+
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(35, 33, 33);
+    margin: 20px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 90vw;
+    margin-left: 10vh;
+  }
+  
+  .footer-item {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(35, 33, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+  }
+  
+.loginthird {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loginthird form {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    gap: 30px;
+  }
+  
+  .loginthird input {
+    border: none;
+    border-color: brown;
+    border-bottom-style: ridge;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 107, 76);
+  }
+  
+  .first {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    overflow: visible;
+  }
+  
+  .first button {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.408);
+    border: none;
+  }
+  
+  .first h6 {
+    font-size: 30px;
+    color: goldenrod;
+  }
+  
+  .second {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .second img {
+    height: 20vh;
+    width: 20vh;
+  }
+  
+  .second h4 {
+    width: 100vw;
+    text-align: center;
+    font-size: 52px;
+    margin: 60px;
+    color: rgb(224, 195, 4);
+    text-decoration: dotted;
+  }
+  
+  .third {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+  }
+  
+  .third form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    gap: 20px;
+  }
+  
+  .third form input {
+    border: none;
+    border-color: brown;
+    border-bottom-style: ridge;
+  }
+  
+  .third form a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  .third form .btn-2-third {
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+  }
+  
+  .third form .btn-1-third {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 10px;
+  }  
+  form button {
+    background-color: goldenrod;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  /* ... (rest of the CSS code remains the same) ... */
+
+/* Media Queries */
+
+/* Small screens (mobile) */
+@media only screen and (max-width: 600px) {
+  /* Layout adjustments */
+  .mainreg {
+    background-size: cover;
+    position: relative;
+  }
+  .securelogin{
+    position: relative;
+    top: 90px;
+  }
+  .first {
+    flex-direction: column;
+  }
+  .second {
+    margin-top: 20px;
+  }
+  .third form {
+    width: 80vw;
+    height: 40vh;
+  }
+  .footer {
+    position: fixed;
+    width: 90vw;
+    margin-bottom:24vh;
+    flex-direction: row;
+    margin-left: 3vh;
+  }
+
+  /* Element adjustments */
+  .mainreg img {
+    height: 30vh;
+    width: 30vh;
+  }
+  .securelogin button {
+    padding: 10px 200px;
+  }
+  .first button {
+    padding: 10px;
+  }
+  .second img {
+    height: 15vh;
+    width: 15vh;
+  }
+  .second h4 {
+    font-size: 30px;
+    margin: 30px;
+  }
+  .third form input {
+    padding: 10px;
+  }
+  .footer-item {
+    padding: 10px;
+  }
+}
+
+/* Medium screens (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /* Layout adjustments */
+  .mainreg {
+    background-size: contain;
+  }
+  .first {
+    flex-direction: row;
+  }
+  .second {
+    margin-top: 30px;
+  }
+  .third form {
+    width: 60vw;
+    height: 50vh;
+  }
+  .footer {
+    flex-direction: row;
+  }
+
+  /* Element adjustments */
+  .mainreg img {
+    height: 40vh;
+    width: 40vh;
+  }
+  .securelogin button {
+    padding: 10px 300px;
+  }
+  .first button {
+    padding: 10px 20px;
+  }
+  .second img {
+    height: 20vh;
+    width: 20vh;
+  }
+  .second h4 {
+    font-size: 40px;
+    margin: 40px;
+  }
+  .third form input {
+    padding: 15px;
+  }
+  .footer-item {
+    padding: 15px;
+  }
+}
+
+/* Large screens (desktop) */
+@media only screen and (min-width: 993px) {
+  /* Layout adjustments */
+  .mainreg {
+    background-size: cover;
+  }
+  .first {
+    flex-direction: row;
+  }
+  .second {
+    margin-top: 40px;
+  }
+  .third form {
+    width: 50vw;
+    height: 60vh;
+  }
+  .footer {
+    flex-direction: row;
+  }
+
+  /* Element adjustments */
+  .mainreg img {
+    height: 50vh;
+    width: 50vh;
+  }
+  .securelogin button {
+    padding: 10px 400px;
+  }
+  .first button {
+    padding: 10px 30px;
+  }
+  .second img {
+    height: 25vh;
+    width: 25vh;
+  }
+  .second h4 {
+    font-size: 50px;
+    margin: 50px;
+  }
+  .third form input {
+    padding: 20px;
+  }
+  .footer-item {
+    padding: 20px;
+  }
+}
+.containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+}
+
+.back-button {
+  align-self: flex-start;
+}
+
+.back-button button {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.615);
+  color: white;
+}
+
+.wallett {
+  font-size: 40px;
+  position: relative;
+  bottom: 33px;
+  color: white;
+}
+
+.text-box {
+  width: 80vw;
+  border-radius: 30px; 
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.605);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
+.grid-item {
+  width: 300px;
+  height: 150px;
+  background-color: lightblue;
+  background-color: rgba(0, 0, 0, 0.605);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.658);
+}
+
+.small-grid-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  width: 100vw;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+
+.small-grid-item {
+  width: 150px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.605);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.small-grid-item h4{
+  color: rgba(255, 255, 255, 0.695);
+}
+
+.bottom-bar {
+  width: 100%;
+  height: 75px;
+  background-color: goldenrod;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 10px;
+  color: black;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .containerr {
+    padding: 30px;
+  }
+  .text-box {
+    width: 70vw;
+    height: 350px;
+  }
+  .grid-item {
+    width: 350px;
+    height: 180px;
+  }
+  .small-grid-item {
+    width: 180px;
+    height: 70px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .containerr {
+    padding: 20px;
+  }
+  .text-box {
+    width: 80vw;
+    height: 300px;
+  }
+  .grid-item {
+    width: 300px;
+    height: 150px;
+  }
+  .small-grid-item {
+    width: 150px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .containerr {
+    padding: 10px;
+    height: 100vh;
+  }
+  .text-box {
+    width: 90vw;
+    height: 250px;
+  }
+  .grid-item {
+    width: 250px;
+    height: 120px;
+  }
+  .small-grid-item {
+    width: 120px;
+    height: 50px;
+  }
+}
